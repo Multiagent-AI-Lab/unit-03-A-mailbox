@@ -1,0 +1,25 @@
+name: ia_nano
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - ipykernel
+  - ase
+  - rdkit
+  - nglview
+  - py3Dmol
+  - openmm
+  - mendeleev
+  - pip
+  - pip:
+    - pycaret>=3.3.0
+    - torch>=2.0.0
+    - torchvision>=0.15.0
+    - torchaudio>=2.0.0
